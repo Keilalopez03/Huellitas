@@ -1,17 +1,35 @@
-*{
-margin:0;
-padding:0;
-}
+
 
 .title-welcome {
     font-size: 40px;
-    color: blue;
+    
 }
 .nav-bar {
     list-style: none;
     display: flex;
+    padding:0px;
 }
 
 .boton-seccion{
     margin: 22px 22px;
+}
+body {
+    background-color: #1e8b1a;
+    margin: 0;
+}
+.primera-seccion{
+    margin-left: 0;
+}
+a{
+    text-decoration:none;
+}
+.link-instagram {
+    margin-right: 5px;
+}
+.informacion-titulo{
+    color: white;
+    background-color: #1b1b1b;
+}
+.bordes{
+margin: 0px 40px;
 }
