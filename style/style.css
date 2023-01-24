@@ -34,3 +34,12 @@ a{
 .bordes{
 margin: 0px 40px;
 }
+
+.texto-adopcion{
+    color: white;
+    background-color: #1b1b1b;
+}
+.texto-colaborar{
+    color: white;
+    background-color: #1b1b1b;
+}
