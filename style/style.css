@@ -1,7 +1,10 @@
 
 
 .title-welcome {
+    margin: 0;
     font-size: 40px;
+    margin-top: 1px;
+
     
 }
 .nav-bar {
@@ -15,7 +18,7 @@
     margin: 22px 22px;
 }
 body {
-    background-color: #1e8b1a;
+    background-color: blueviolet;
     margin: 0;
 }
 .primera-seccion{
@@ -23,13 +26,15 @@ body {
 }
 a{
     text-decoration:none;
+    color: white;
+    font-family: cursive;
 }
 .link-instagram {
     margin-right: 5px;
 }
 .informacion-titulo{
     color: white;
-    background-color: #1b1b1b;
+    background-color: #ab66ea;
 }
 .bordes{
 margin: 0px 40px;
@@ -37,11 +42,13 @@ margin: 0px 40px;
 
 .texto-adopcion{
     color: white;
-    background-color: #1b1b1b;
+    background-color: #ab66ea;
+    padding-bottom: 27px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
 }
 .texto-colaborar{
     color: white;
-    background-color: #1b1b1b;
+    background-color: #ab66ea;
 }
 .genero {
     display: flex;
@@ -56,10 +63,27 @@ margin: 0px 40px;
     height: 260px;
 }
 .tarjeta-perros{
-    background-color: coral;
+    background-color: #ab66ea;
+    box-shadow: rgb(0 0 0 / 75%) 6px 7px 26px 5px;
+    border-radius: 17px;
     width: fit-content;
     height: fit-content;
     padding: 14px;
     margin: 14px;
     border-radius: 17px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+.subtitulo-adopcion{
+    margin-top: 17px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.contenedor-tarjetas {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0px 127px;
 }
