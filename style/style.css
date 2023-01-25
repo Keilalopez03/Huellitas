@@ -43,3 +43,23 @@ margin: 0px 40px;
     color: white;
     background-color: #1b1b1b;
 }
+.genero {
+    display: flex;
+    align-items: center;
+}
+.icono-genero {
+    width: 26px;
+    height: 26px;
+}
+.medida-foto{
+    width: 211px;
+    height: 260px;
+}
+.tarjeta-perros{
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 17px;
+}
