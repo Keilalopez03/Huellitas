@@ -87,3 +87,13 @@ margin: 0px 40px;
     display: flex;
     margin: 0px 127px;
 }
+.foto-donaciones{
+    width: 425px;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+}
+.foto-ubicacion{
+    height: 412px;
+    border-radius: 17px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+}
