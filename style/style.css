@@ -113,3 +113,24 @@ margin: 0px 40px;
 .info-extra-inicio{
     margin: 0px 40px;
 }
+.foto-requisitos{
+    height: 320px;
+}
+.fotoinicio2{
+    height: 373px;
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+}
+.fotoinicio3{
+    height: 373px;
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+}
+.fotoinicio4{
+    height: 373px;
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+}
