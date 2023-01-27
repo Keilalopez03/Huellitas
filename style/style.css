@@ -11,6 +11,7 @@
     list-style: none;
     display: flex;
     padding:0px;
+    margin: 40px;;
     color: #dddddd;
 }
 
@@ -133,4 +134,10 @@ margin: 0px 40px;
     padding-bottom: 1px;
     box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
     border-radius: 17px;
+}
+.logo{
+    height: 69px;
+}
+.bordesh1{
+    margin: 0px;
 }
