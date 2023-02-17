@@ -15,16 +15,12 @@
     color: #dddddd;
 }
 
-.boton-seccion{
-    margin: 22px 22px;
-}
+
 body {
     background-color: blueviolet;
     margin: 0;
 }
-.primera-seccion{
-    margin-left: 0;
-}
+
 a{
     text-decoration:none;
     color: white;
@@ -141,6 +137,10 @@ margin: 0px 40px;
 .bordesh1{
     margin: 0px;
 }
-.primera-seccion{
-    margin: 22px 22px;
+
+nav {
+    background-color:blueviolet;
+}
+.nav-link {
+    color: white;
 }
