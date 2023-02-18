@@ -32,6 +32,8 @@ a{
 .informacion-titulo{
     color: white;
     background-color: #ab66ea;
+    font-family: ui-serif;
+    font-size: 20px;
 }
 .bordes{
 margin: 0px 40px;
@@ -70,6 +72,8 @@ margin: 0px 40px;
     padding: 14px;
     margin: 14px;
     border-radius: 17px;
+    
+    
 }
 
 .no-margin {
@@ -82,9 +86,9 @@ margin: 0px 40px;
 }
 
 .contenedor-tarjetas {
-    flex-wrap: wrap;
-    display: flex;
+    display: grid;
     margin: 0px 127px;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
 }
 .foto-donaciones{
     width: 425px;
@@ -136,11 +140,22 @@ margin: 0px 40px;
 }
 .bordesh1{
     margin: 0px;
+    margin: 0px;
+    font-family: cursive;
 }
 
-nav {
-    background-color:blueviolet;
-}
+
 .nav-link {
     color: white;
+}
+.letrah2{
+    font-size: 2rem;
+}
+.letrah3{
+    font-size: 20px;
+}
+
+.tarjeta-perros:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
 }
