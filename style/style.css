@@ -17,7 +17,7 @@
 
 
 body {
-    /* background-color: blueviolet; */
+    background-color: blueviolet; 
     
     margin: 0;
 }
@@ -32,7 +32,7 @@ a{
 }
 .informacion-titulo{
     color: white;
-    background-color: #ab66ea;
+    background-color: #ab66ea; 
     font-size: 20px;
 }
 .bordes{
@@ -50,6 +50,7 @@ margin: 0px 40px;
 .texto-colaborar{
     color: white;
     background-color: #ab66ea;
+    padding-bottom: 3px;
 }
 .genero {
     display: flex;
@@ -143,7 +144,7 @@ margin: 0px 40px;
 .bordesh1{
     margin: 0px;
     margin: 0px;
-    font-family: cursive;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 
@@ -190,13 +191,15 @@ margin: 0px 40px;
 
 } 
 .tipografia{
-    font-family: cursive;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .fotoadopta{
     
     padding-bottom: 1px;
     box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
     border-radius: 17px;
+    height: 91%;
+    
 }
 
 .textofotoadopta{
@@ -211,4 +214,111 @@ margin: 0px 40px;
 }
 .marginsubtitulo{
     margin: revert;
+}
+.banner{
+    background:  linear-gradient(
+        rgba(5, 7, 12, 0.5),
+        rgba(5, 7, 12, 0.5)),
+        url("../img/609c78d7006a935d7cca511993b7f640.jpg") center left no-repeat ;
+    height: 87vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11px 0px;
+}
+.alias{
+    margin: 30px  0px;
+    margin-left: 40px;
+}
+.mapa{
+    width: 100%;
+    border:0;
+}
+
+@media (max-width: 578px) {
+    .foto-inicio {
+        height: 208px;
+        width: 211px;
+    }
+    .texto-mobile{
+        padding: 0px !important;
+    }
+    .letrah3{
+        font-size: 16px;
+    }
+    .letrah2{
+        font-size: 26px;
+    }
+    .textofotoadopta{
+        font-size: 17px;
+    }
+    .medida-foto{
+        width: 158px;
+    height: 151px;
+    }
+    .contenedor-tarjetas{
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+
+    }
+    .bordesh1{
+        font-size: 23px;
+    }
+    .subtitulo-adopcion{
+        margin-bottom: 10px
+    }
+    .foto-donaciones{
+        width: 243px;
+        height: 150px;
+    }
+    .letrah3{
+        font-size: 15px
+    }
+}
+@media (max-width: 1024px){
+    .foto-donaciones{
+        width: 588px;
+    }
+    .texto-colaborar{
+        font-size: 44px;
+    }
+    .letrah3{
+        font-size: 26px;
+    }
+    .letrah2{
+        font-size: 39px;
+    }
+    .alias{
+        font-size: 50px;
+    }
+    .title-welcome{
+        font-size: 49px;
+    }
+    .letrah3{
+        font-size: 32px;
+    }
+    .textofotoadopta{
+        font-size: 28px;
+    }
+    .foto-inicio{
+        width: 869px;
+    }
+    .nav-item{
+            font-size: 25px;
+    }
+    .contenedor-tarjetas{
+        grid-template-columns: 4fr 4fr 4fr ;
+
+    }
 }
