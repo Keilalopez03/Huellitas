@@ -289,6 +289,9 @@ margin: 0px 40px;
 @media (max-width: 1024px){
     .foto-donaciones{
         width: 588px;
+        
+    margin-top: 35px;
+
     }
     .texto-colaborar{
         font-size: 44px;
@@ -319,6 +322,17 @@ margin: 0px 40px;
     }
     .contenedor-tarjetas{
         grid-template-columns: 4fr 4fr 4fr ;
-
+    }
+    .texto-banner{
+        font-size: 50px;
+    }
+    .subtexto-banner{
+        font-size: 34px;
+    }
+    .boton-adopta{
+        font-size: 30px ;
+    }
+    .donativo{
+        margin-top: 20px;
     }
 }
