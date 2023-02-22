@@ -1,11 +1,8 @@
 
-
 .title-welcome {
     margin: 0;
     font-size: 40px;
-    margin-top: 1px;
-
-    
+    margin-top: 1px;    
 }
 .nav-bar {
     list-style: none;
@@ -14,14 +11,11 @@
     margin: 40px;;
     color: #dddddd;
 }
-
-
 body {
     background-color: blueviolet; 
     
     margin: 0;
 }
-
 a{
     text-decoration:none;
     color: white;
@@ -37,10 +31,7 @@ a{
 }
 .bordes{
 margin: 0px 40px;
-
-
 }
-
 .texto-adopcion{
     color: white;
     background-color: #ab66ea;
@@ -73,10 +64,7 @@ margin: 0px 40px;
     padding: 14px;
     margin: 14px;
     border-radius: 17px;
-    
-    
 }
-
 .no-margin {
     margin: 0px;
 }
@@ -85,7 +73,6 @@ margin: 0px 40px;
     margin-bottom: 50px;
     font-weight: normal;
 }
-
 .contenedor-tarjetas {
     display: grid;
     margin: 0px 127px;
@@ -146,8 +133,6 @@ margin: 0px 40px;
     margin: 0px;
     font-family: 'Hind Siliguri', sans-serif;
 }
-
-
 .nav-link {
     color: white;
 }
@@ -157,22 +142,15 @@ margin: 0px 40px;
 .letrah3{
     font-size: 20px;
 }
-
 .tarjeta-perros:hover{
     transform: scale(1.2);
     transition-duration: 1.5s;
 }
-
 .navgrilla{
     grid-area: navbar;
 }
-
 .main{
     grid-area: main;
-}
-
-.carrouselgrid{
-    grid-area: carrousel;
 }
 .footergrid{
     grid-area: footer;
@@ -187,8 +165,6 @@ margin: 0px 40px;
     ;
     grid-template-columns: 20% auto 15% 20% ;
     grid-template-rows:100px 2fr 2fr  ;
-    
-
 } 
 .tipografia{
     font-family: 'Hind Siliguri', sans-serif;
@@ -201,7 +177,6 @@ margin: 0px 40px;
     height: 91%;
     
 }
-
 .textofotoadopta{
     border: 3px solid #a11bd9d9;
     border-radius: 22px;
@@ -242,7 +217,6 @@ margin: 0px 40px;
     width: 100%;
     border:0;
 }
-
 @media (max-width: 578px) {
     .foto-inicio {
         height: 208px;
@@ -270,7 +244,6 @@ margin: 0px 40px;
     align-items: center;
     justify-items: center;
     margin: 0px;
-
     }
     .bordesh1{
         font-size: 23px;
@@ -291,7 +264,6 @@ margin: 0px 40px;
         width: 588px;
         
     margin-top: 35px;
-
     }
     .texto-colaborar{
         font-size: 44px;
