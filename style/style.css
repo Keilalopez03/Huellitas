@@ -306,3 +306,24 @@ margin: 0px 40px;
         margin-top: 20px;
     }
 }
+.contenedor-requisitos{
+    /* display: grid;
+    
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 380px 380px 380px 380px  */
+}
+.tarjeta-requisitos{
+    background-color: #ab66ea;
+    box-shadow: rgb(0 0 0 / 75%) 6px 7px 26px 5px;
+    border-radius: 17px;
+    width: 790px;
+    height: fit-content;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 17px;
+}
+.img-requisitos{
+    width: 76px;
+    margin: 16px;
+   
+}
