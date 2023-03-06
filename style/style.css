@@ -153,19 +153,10 @@ margin: 0px 40px;
 .footergrid{
     grid-area: footer;
 }
-.grillaP{
-    display: grid;
-    grid-template-areas: 
-    "navbar navbar navbar "
-    "main main  main"
-    "carrousel main main "
-    "footer footer footer"
-    ;
-    grid-template-columns: 20% auto 15% 20% ;
-    grid-template-rows:100px 2fr 2fr  ;
-} 
+
+
 .tipografia{
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif ;
 }
 .fotoadopta{
     
@@ -175,6 +166,10 @@ margin: 0px 40px;
     height: 91%;
     
 }
+    
+
+    
+
 .textofotoadopta{
     border: 3px solid #a11bd9d9;
     border-radius: 22px;
@@ -225,9 +220,11 @@ margin: 0px 40px;
     }
     .letrah3{
         font-size: 16px;
+        
     }
     .letrah2{
         font-size: 26px;
+        font-family: "Raleway", sans-serif;
     }
     .textofotoadopta{
         font-size: 17px;
@@ -307,10 +304,11 @@ margin: 0px 40px;
     }
 }
 .contenedor-requisitos{
-    /* display: grid;
-    
-    grid-template-columns: 4fr 4fr 4fr 4fr;
-    grid-template-rows: 380px 380px 380px 380px  */
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
 }
 .tarjeta-requisitos{
     background-color: #ab66ea;
@@ -325,5 +323,16 @@ margin: 0px 40px;
 .img-requisitos{
     width: 76px;
     margin: 16px;
-   
+
+} 
+.foto-requisito{
+    width: 310px;
+    width: 310px !important;
+}
+.lista-pedidos{
+    list-style: none;
+}
+.boton-colabora{
+    margin: 23px;
+    color: darkmagenta !important;
 }
