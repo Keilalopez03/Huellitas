@@ -91,7 +91,7 @@ margin: 0px 40px;
     box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
 }
 .texto-requisitos{
-    color: white;
+    
     background-color: #ab66ea;
     
 }
@@ -234,7 +234,7 @@ margin: 0px 40px;
     height: 151px;
     }
     .contenedor-tarjetas{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr  !important; 
     grid-template-rows: 330px;
     align-items: center;
     justify-items: center;
@@ -247,12 +247,12 @@ margin: 0px 40px;
         margin-bottom: 10px
     }
     .foto-donaciones{
-        width: 243px;
-        height: 150px;
+        display: none;
     }
     .letrah3{
-        font-size: 15px
+        font-size: 28px;
     }
+
 }
 @media (max-width: 1024px){
     .foto-donaciones{
@@ -309,6 +309,7 @@ margin: 0px 40px;
     align-items: center;
     justify-items: center;
     margin: 0px;
+
 }
 .tarjeta-requisitos{
     background-color: #ab66ea;
@@ -319,6 +320,9 @@ margin: 0px 40px;
     padding: 14px;
     margin: 14px;
     border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .img-requisitos{
     width: 76px;
@@ -335,4 +339,8 @@ margin: 0px 40px;
 .boton-colabora{
     margin: 23px;
     color: darkmagenta !important;
+}
+.contenedor-requisitos{
+display:flex;
+flex-direction: column;;
 }
