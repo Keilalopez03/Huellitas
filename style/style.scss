@@ -1,0 +1,208 @@
+@import "adopcion";
+@import "colabora";
+@import "requisitos";
+@import "ubicacion";
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 40px;
+    color: #dddddd;
+}
+
+body {
+    background-color: blueviolet;
+
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+.link-instagram {
+    margin-right: 5px;
+}
+
+.informacion-titulo {
+    color: white;
+    background-color: #ab66ea;
+    font-size: 20px;
+}
+
+.bordes {
+    margin: 0px 40px;
+}
+
+.texto-colaborar {
+    color: white;
+    background-color: #ab66ea;
+    padding-bottom: 3px;
+}
+
+.foto-inicio {
+    height: 434px;
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+}
+
+.info-extra-inicio {
+    margin: 0px 40px;
+}
+
+.fotoinicio3 {
+    height: 373px;
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+}
+
+.logo {
+    height: 69px;
+}
+
+.bordesh1 {
+    margin: 0px;
+    margin: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav-link {
+    color: white;
+}
+
+.letrah2 {
+    font-size: 30px;
+}
+
+.letrah3 {
+    font-size: 20px;
+}
+
+.navgrilla {
+    grid-area: navbar;
+}
+
+.footergrid {
+    grid-area: footer;
+}
+
+
+.tipografia {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.fotoadopta {
+
+    padding-bottom: 1px;
+    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
+    border-radius: 17px;
+    height: 91%;
+
+}
+
+.textofotoadopta {
+    border: 3px solid #a11bd9d9;
+    border-radius: 22px;
+    background-color: #ab66ea;
+    padding: 9px;
+    color: white;
+}
+
+.colorfondo {
+    background-color: #ab66ea !important;
+}
+
+.marginsubtitulo {
+    margin: revert;
+}
+
+.banner {
+    background: linear-gradient(rgba(5, 7, 12, 0.5),
+            rgba(5, 7, 12, 0.5)),
+        url("../img/609c78d7006a935d7cca511993b7f640.jpg") center left no-repeat;
+    height: 87vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11px 0px;
+}
+
+.lista-pedidos {
+    list-style: none;
+}
+
+.boton-colabora {
+    margin: 23px;
+    color: darkmagenta !important;
+}
+
+@media (max-width: 578px) {
+    .foto-inicio {
+        height: 208px;
+        width: 211px;
+    }
+
+    .texto-mobile {
+        padding: 0px !important;
+    }
+
+    .letrah3 {
+        font-size: 16px;
+    }
+    .letrah2{
+        font-size: 26px;
+        font-family: "Raleway", sans-serif;
+    }
+    .textofotoadopta{
+        font-size: 17px;
+    }
+    .bordesh1{
+        font-size: 23px;
+    }
+    .letrah3{
+        font-size: 28px;
+    }
+    @media (max-width: 1024px){
+        .letrah3{
+            font-size: 26px;
+        }
+        .letrah2{
+            font-size: 39px;
+        }
+        .letrah3{
+            font-size: 32px;
+        }
+        .textofotoadopta{
+            font-size: 28px;
+        }
+        .foto-inicio{
+            width: 869px;
+        }
+        .nav-item{
+            font-size: 25px;
+    }
+    .texto-banner{
+        font-size: 50px;
+    }
+    .subtexto-banner{
+        font-size: 34px;
+    }
+    .boton-adopta{
+        font-size: 30px ;
+    }
+    }
+}

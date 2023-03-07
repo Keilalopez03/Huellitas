@@ -1,0 +1,46 @@
+.texto-requisitos {
+    background-color: #ab66ea;
+}
+
+.contenedor-requisitos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 330px;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+
+}
+
+.tarjeta-requisitos {
+    background-color: #ab66ea;
+    box-shadow: rgb(0 0 0 / 75%) 6px 7px 26px 5px;
+    border-radius: 17px;
+    width: 790px;
+    height: fit-content;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-requisitos {
+    width: 76px;
+    margin: 16px;
+
+}
+
+.foto-requisito {
+    width: 310px;
+    width: 310px !important;
+}
+
+.contenedor-requisitos {
+    display: flex;
+    flex-direction: column;
+    ;
+}
+@media (max-width: 578px) {
+    
+}

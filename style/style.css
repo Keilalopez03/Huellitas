@@ -1,346 +1,424 @@
-
 .title-welcome {
-    margin: 0;
-    font-size: 40px;
-    margin-top: 1px;    
+  margin: 0;
+  font-size: 40px;
+  margin-top: 1px;
+}
+
+.texto-adopcion {
+  color: white;
+  background-color: #ab66ea;
+  padding-bottom: 27px;
+  box-shadow: rgba(0, 0, 0, 0.75) 7px 10px 23px -4px;
+}
+
+.genero {
+  display: flex;
+  align-items: center;
+}
+
+.icono-genero {
+  width: 26px;
+  height: 26px;
+}
+
+.medida-foto {
+  width: 209px;
+  height: 223px;
+}
+
+.tarjeta-perros {
+  background-color: #ab66ea;
+  box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
+  border-radius: 17px;
+  width: fit-content;
+  height: fit-content;
+  padding: 14px;
+  margin: 14px;
+  border-radius: 17px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.subtitulo-adopcion {
+  margin-top: 17px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.contenedor-tarjetas {
+  display: grid;
+  margin: 0px 127px;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  grid-template-rows: 380px 380px 380px 380px;
+}
+
+.tarjeta-perros:hover {
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+}
+
+@media (max-width: 578px) {
+  .letrah3 {
+    font-size: 16px;
+  }
+  .medida-foto {
+    width: 158px;
+    height: 151px;
+  }
+  .contenedor-tarjetas {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 330px;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+  }
+  .bordesh1 {
+    font-size: 23px;
+  }
+  .subtitulo-adopcion {
+    margin-bottom: 10px;
+  }
+  .letrah3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 578px) and (max-width: 1024px) {
+  .letrah3 {
+    font-size: 26px;
+  }
+  .title-welcome {
+    font-size: 49px;
+  }
+  .letrah3 {
+    font-size: 32px;
+  }
+  .nav-item {
+    font-size: 25px;
+  }
+  .contenedor-tarjetas {
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+}
+.foto-donaciones {
+  width: 425px;
+  border-radius: 17px;
+  box-shadow: rgba(0, 0, 0, 0.75) 7px 10px 23px -4px;
+}
+
+.alias {
+  margin: 30px 0px;
+  margin-left: 40px;
+}
+
+@media (max-width: 578px) {
+  .letrah3 {
+    font-size: 16px;
+  }
+  .letrah2 {
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+  }
+  .bordesh1 {
+    font-size: 23px;
+  }
+  .foto-donaciones {
+    display: none;
+  }
+  .letrah3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 578px) and (max-width: 1024px) {
+  .foto-donaciones {
+    width: 588px;
+    margin-top: 35px;
+  }
+  .texto-colaborar {
+    font-size: 44px;
+  }
+  .letrah3 {
+    font-size: 26px;
+  }
+  .letrah2 {
+    font-size: 39px;
+  }
+  .alias {
+    font-size: 50px;
+  }
+  .letrah3 {
+    font-size: 32px;
+  }
+  .nav-item {
+    font-size: 25px;
+  }
+  .donativo {
+    margin-top: 20px;
+  }
+}
+.texto-requisitos {
+  background-color: #ab66ea;
+}
+
+.contenedor-requisitos {
+  grid-template-columns: 1fr;
+  grid-template-rows: 330px;
+  align-items: center;
+  justify-items: center;
+  margin: 0px;
+}
+
+.tarjeta-requisitos {
+  background-color: #ab66ea;
+  box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
+  border-radius: 17px;
+  width: 790px;
+  height: fit-content;
+  padding: 14px;
+  margin: 14px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-requisitos {
+  width: 76px;
+  margin: 16px;
+}
+
+.foto-requisito {
+  width: 310px;
+  width: 310px !important;
+}
+
+.contenedor-requisitos {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa {
+  width: 100%;
+  border: 0;
+}
+
+@media (max-width: 578px) {
+  .letrah3 {
+    font-size: 16px;
+  }
+  .bordesh1 {
+    font-size: 23px;
+  }
+  .letrah3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 578px) and (max-width: 1024px) {
+  .letrah3 {
+    font-size: 26px;
+  }
+  .letrah3 {
+    font-size: 32px;
+  }
+  .nav-item {
+    font-size: 25px;
+  }
 }
 .nav-bar {
-    list-style: none;
-    display: flex;
-    padding:0px;
-    margin: 40px;;
-    color: #dddddd;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 40px;
+  color: #dddddd;
 }
+
 body {
-    background-color: blueviolet; 
-    
-    margin: 0;
+  background-color: blueviolet;
+  margin: 0;
 }
-a{
-    text-decoration:none;
-    color: white;
-    font-family: cursive;
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
 }
+
 .link-instagram {
-    margin-right: 5px;
-}
-.informacion-titulo{
-    color: white;
-    background-color: #ab66ea; 
-    font-size: 20px;
-}
-.bordes{
-margin: 0px 40px;
-}
-.texto-adopcion{
-    color: white;
-    background-color: #ab66ea;
-    padding-bottom: 27px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-}
-.texto-colaborar{
-    color: white;
-    background-color: #ab66ea;
-    padding-bottom: 3px;
-}
-.genero {
-    display: flex;
-    align-items: center;
-}
-.icono-genero {
-    width: 26px;
-    height: 26px;
-}
-.medida-foto{
-    width: 209px;
-    height: 223px;
-}
-.tarjeta-perros{
-    background-color: #ab66ea;
-    box-shadow: rgb(0 0 0 / 75%) 6px 7px 26px 5px;
-    border-radius: 17px;
-    width: fit-content;
-    height: fit-content;
-    padding: 14px;
-    margin: 14px;
-    border-radius: 17px;
-}
-.no-margin {
-    margin: 0px;
-}
-.subtitulo-adopcion{
-    margin-top: 17px;
-    margin-bottom: 50px;
-    font-weight: normal;
-}
-.contenedor-tarjetas {
-    display: grid;
-    margin: 0px 127px;
-    grid-template-columns: 4fr 4fr 4fr 4fr;
-    grid-template-rows: 380px 380px 380px 380px
-} 
-.foto-donaciones{
-    width: 425px;
-    border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    
-}
-.foto-ubicacion{
-    height: 412px;
-    border-radius: 17px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-}
-.texto-requisitos{
-    
-    background-color: #ab66ea;
-    
-}
-.foto-inicio{
-    height: 434px;
-    padding-bottom: 1px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    border-radius: 17px;
-}
-.info-extra-inicio{
-    margin: 0px 40px;
+  margin-right: 5px;
 }
 
-.fotoinicio2{
-    height: 373px;
-    padding-bottom: 1px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    border-radius: 17px;
+.informacion-titulo {
+  color: white;
+  background-color: #ab66ea;
+  font-size: 20px;
 }
-.fotoinicio3{
-    height: 373px;
-    padding-bottom: 1px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    border-radius: 17px;
+
+.bordes {
+  margin: 0px 40px;
 }
-.fotoinicio4{
-    height: 373px;
-    padding-bottom: 1px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    border-radius: 17px;
+
+.texto-colaborar {
+  color: white;
+  background-color: #ab66ea;
+  padding-bottom: 3px;
 }
-.logo{
-    height: 69px;
+
+.foto-inicio {
+  height: 434px;
+  padding-bottom: 1px;
+  box-shadow: rgba(0, 0, 0, 0.75) 7px 10px 23px -4px;
+  border-radius: 17px;
 }
-.bordesh1{
-    margin: 0px;
-    margin: 0px;
-    font-family: 'Hind Siliguri', sans-serif;
+
+.info-extra-inicio {
+  margin: 0px 40px;
 }
+
+.fotoinicio3 {
+  height: 373px;
+  padding-bottom: 1px;
+  box-shadow: rgba(0, 0, 0, 0.75) 7px 10px 23px -4px;
+  border-radius: 17px;
+}
+
+.logo {
+  height: 69px;
+}
+
+.bordesh1 {
+  margin: 0px;
+  margin: 0px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
 .nav-link {
-    color: white;
-}
-.letrah2{
-    font-size: 30px;
-}
-.letrah3{
-    font-size: 20px;
-}
-.tarjeta-perros:hover{
-    transform: scale(1.2);
-    transition-duration: 1.5s;
-}
-.navgrilla{
-    grid-area: navbar;
-}
-.main{
-    grid-area: main;
-}
-.footergrid{
-    grid-area: footer;
+  color: white;
 }
 
+.letrah2 {
+  font-size: 30px;
+}
 
-.tipografia{
-    font-family: 'Hind Siliguri', sans-serif ;
+.letrah3 {
+  font-size: 20px;
 }
-.fotoadopta{
-    
-    padding-bottom: 1px;
-    box-shadow: rgb(0 0 0 / 75%) 7px 10px 23px -4px;
-    border-radius: 17px;
-    height: 91%;
-    
-}
-    
 
-    
+.navgrilla {
+  grid-area: navbar;
+}
 
-.textofotoadopta{
-    border: 3px solid #a11bd9d9;
-    border-radius: 22px;
-    background-color: #ab66ea;
-    padding: 9px;
-    color: white;
+.footergrid {
+  grid-area: footer;
 }
-.colorfondo{
-    background-color: #ab66ea !important;
+
+.tipografia {
+  font-family: "Hind Siliguri", sans-serif;
 }
-.marginsubtitulo{
-    margin: revert;
+
+.fotoadopta {
+  padding-bottom: 1px;
+  box-shadow: rgba(0, 0, 0, 0.75) 7px 10px 23px -4px;
+  border-radius: 17px;
+  height: 91%;
 }
-.banner{
-    background:  linear-gradient(
-        rgba(5, 7, 12, 0.5),
-        rgba(5, 7, 12, 0.5)),
-        url("../img/609c78d7006a935d7cca511993b7f640.jpg") center left no-repeat ;
-    height: 87vh;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.textofotoadopta {
+  border: 3px solid rgba(161, 27, 217, 0.8509803922);
+  border-radius: 22px;
+  background-color: #ab66ea;
+  padding: 9px;
+  color: white;
 }
-.contenedor-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 11px 0px;
+
+.colorfondo {
+  background-color: #ab66ea !important;
 }
-.alias{
-    margin: 30px  0px;
-    margin-left: 40px;
+
+.marginsubtitulo {
+  margin: revert;
 }
-.mapa{
-    width: 100%;
-    border:0;
+
+.banner {
+  background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url("../img/609c78d7006a935d7cca511993b7f640.jpg") center left no-repeat;
+  height: 87vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.contenedor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 11px 0px;
+}
+
+.lista-pedidos {
+  list-style: none;
+}
+
+.boton-colabora {
+  margin: 23px;
+  color: darkmagenta !important;
+}
+
 @media (max-width: 578px) {
-    .foto-inicio {
-        height: 208px;
-        width: 211px;
-    }
-    .texto-mobile{
-        padding: 0px !important;
-    }
-    .letrah3{
-        font-size: 16px;
-        
-    }
-    .letrah2{
-        font-size: 26px;
-        font-family: "Raleway", sans-serif;
-    }
-    .textofotoadopta{
-        font-size: 17px;
-    }
-    .medida-foto{
-        width: 158px;
-    height: 151px;
-    }
-    .contenedor-tarjetas{
-    grid-template-columns: 1fr  !important; 
-    grid-template-rows: 330px;
-    align-items: center;
-    justify-items: center;
-    margin: 0px;
-    }
-    .bordesh1{
-        font-size: 23px;
-    }
-    .subtitulo-adopcion{
-        margin-bottom: 10px
-    }
-    .foto-donaciones{
-        display: none;
-    }
-    .letrah3{
-        font-size: 28px;
-    }
+  .foto-inicio {
+    height: 208px;
+    width: 211px;
+  }
+  .texto-mobile {
+    padding: 0px !important;
+  }
+  .letrah3 {
+    font-size: 16px;
+  }
+  .letrah2 {
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+  }
+  .textofotoadopta {
+    font-size: 17px;
+  }
+  .bordesh1 {
+    font-size: 23px;
+  }
+  .letrah3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 578px) and (max-width: 1024px) {
+  .letrah3 {
+    font-size: 26px;
+  }
+  .letrah2 {
+    font-size: 39px;
+  }
+  .letrah3 {
+    font-size: 32px;
+  }
+  .textofotoadopta {
+    font-size: 28px;
+  }
+  .foto-inicio {
+    width: 869px;
+  }
+  .nav-item {
+    font-size: 25px;
+  }
+  .texto-banner {
+    font-size: 50px;
+  }
+  .subtexto-banner {
+    font-size: 34px;
+  }
+  .boton-adopta {
+    font-size: 30px;
+  }
+}
 
-}
-@media (max-width: 1024px){
-    .foto-donaciones{
-        width: 588px;
-        
-    margin-top: 35px;
-    }
-    .texto-colaborar{
-        font-size: 44px;
-    }
-    .letrah3{
-        font-size: 26px;
-    }
-    .letrah2{
-        font-size: 39px;
-    }
-    .alias{
-        font-size: 50px;
-    }
-    .title-welcome{
-        font-size: 49px;
-    }
-    .letrah3{
-        font-size: 32px;
-    }
-    .textofotoadopta{
-        font-size: 28px;
-    }
-    .foto-inicio{
-        width: 869px;
-    }
-    .nav-item{
-            font-size: 25px;
-    }
-    .contenedor-tarjetas{
-        grid-template-columns: 4fr 4fr 4fr ;
-    }
-    .texto-banner{
-        font-size: 50px;
-    }
-    .subtexto-banner{
-        font-size: 34px;
-    }
-    .boton-adopta{
-        font-size: 30px ;
-    }
-    .donativo{
-        margin-top: 20px;
-    }
-}
-.contenedor-requisitos{
-    grid-template-columns: 1fr;
-    grid-template-rows: 330px;
-    align-items: center;
-    justify-items: center;
-    margin: 0px;
-
-}
-.tarjeta-requisitos{
-    background-color: #ab66ea;
-    box-shadow: rgb(0 0 0 / 75%) 6px 7px 26px 5px;
-    border-radius: 17px;
-    width: 790px;
-    height: fit-content;
-    padding: 14px;
-    margin: 14px;
-    border-radius: 17px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.img-requisitos{
-    width: 76px;
-    margin: 16px;
-
-} 
-.foto-requisito{
-    width: 310px;
-    width: 310px !important;
-}
-.lista-pedidos{
-    list-style: none;
-}
-.boton-colabora{
-    margin: 23px;
-    color: darkmagenta !important;
-}
-.contenedor-requisitos{
-display:flex;
-flex-direction: column;;
-}
+/*# sourceMappingURL=style.css.map */

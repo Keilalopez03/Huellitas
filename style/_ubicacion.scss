@@ -1,0 +1,27 @@
+.mapa{
+    width: 100%;
+    border:0;
+}
+@media (max-width: 578px) {
+    .letrah3{
+        font-size: 16px;
+        
+    }
+    .bordesh1{
+        font-size: 23px;
+    }
+    .letrah3{
+        font-size: 28px;
+    }
+    @media (max-width: 1024px){
+        .letrah3{
+            font-size: 26px;
+        }
+        .letrah3{
+            font-size: 32px;
+        }
+        .nav-item{
+            font-size: 25px;
+    }
+    }
+}
