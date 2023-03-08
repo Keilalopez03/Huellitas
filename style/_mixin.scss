@@ -1,11 +1,10 @@
 @mixin subtexto {
     margin: revert;
-    font-size:30px;
-    color: aqua;
-    
+    font-size:30px; 
 
 }
 .letrah2 {
     @include subtexto;
     color: cyan;
-}
+
+    }
