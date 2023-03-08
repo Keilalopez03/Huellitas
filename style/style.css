@@ -88,6 +88,11 @@
   .letrah3 {
     font-size: 26px;
   }
+  .contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr !important;
+    grid-template-rows: 380px 380px;
+  }
   .title-welcome {
     font-size: 49px;
   }
@@ -96,12 +101,6 @@
   }
   .nav-item {
     font-size: 25px;
-  }
-  .contenedor-tarjetas {
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
-    grid-template-rows: 380px 380px 380px;
-    margin: 0px;
   }
 }
 .foto-donaciones {
@@ -204,6 +203,19 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 579px) and (max-width: 1024px) {
+  .tarjeta-requisitos {
+    background-color: #ab66ea;
+    box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
+    border-radius: 17px;
+    width: 790px;
+    height: fit-content;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 17px;
+    display: contents;
+  }
+}
 @media screen and (min-width: 20px) and (max-width: 578px) {
   .tarjeta-requisitos {
     background-color: #ab66ea;
