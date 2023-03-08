@@ -150,7 +150,7 @@ a {
     color: darkmagenta !important;
 }
 
-@media screen and  (min-width:200px) and (max-width: 578px) {
+@media screen and (min-width:200px) and (max-width: 578px) {
     .foto-inicio {
         height: 208px;
         width: 211px;
@@ -159,6 +159,7 @@ a {
     .texto-mobile {
         padding: 0px !important;
     }
+
 
     .letrah3 {
         font-size: 16px !important;
@@ -174,8 +175,13 @@ a {
         font-size: 17px;
     }
 
-    .bordesh1 {
-        font-size: 28px;
+    
+
+    .subtexto-banner {
+        font-size: 16px;
+    }
+    .texto-banner {
+        font-size: 17px;
     }
 
     @media screen and (min-width: 579px) and (max-width: 1024px) {
@@ -205,14 +211,17 @@ a {
     }
 
     .texto-banner {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .subtexto-banner {
-        font-size: 34px;
+        font-size: 16px;
     }
 
     .boton-adopta {
         font-size: 30px;
     }
+
+
+
 }
