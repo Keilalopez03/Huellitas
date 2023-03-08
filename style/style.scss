@@ -150,7 +150,7 @@ a {
     color: darkmagenta !important;
 }
 
-@media  ( min-width:200px ) and   ( max-width: 578px) {
+@media screen and  (min-width:200px) and (max-width: 578px) {
     .foto-inicio {
         height: 208px;
         width: 211px;
@@ -163,45 +163,56 @@ a {
     .letrah3 {
         font-size: 16px !important;
     }
-    .letrah2{
+
+    .letrah2 {
         font-size: 27px;
 
         font-family: "Raleway", sans-serif;
     }
-    .textofotoadopta{
+
+    .textofotoadopta {
         font-size: 17px;
     }
-    .bordesh1{
+
+    .bordesh1 {
         font-size: 28px;
     }
-    
-    @media (min-width:578px) and  (max-width: 1024px ){
-        .letrah3{
-            font-size: 26px;
-        }
-        .letrah2{
-            font-size: 39px;
-        }
-        .letrah3{
+
+    @media screen and (min-width: 579px) and (max-width: 1024px) {
+        .letrah3 {
             font-size: 32px;
         }
-        .textofotoadopta{
-            font-size: 28px;
-        }
-        .foto-inicio{
-            width: 869px;
-        }
-        .nav-item{
-            font-size: 25px;
     }
-    .texto-banner{
+
+    .letrah2 {
+        font-size: 39px;
+    }
+
+    .letrah3 {
+        font-size: 32px;
+    }
+
+    .textofotoadopta {
+        font-size: 28px;
+    }
+
+    .foto-inicio {
+        width: 869px;
+    }
+
+    .nav-item {
+        font-size: 25px;
+    }
+
+    .texto-banner {
         font-size: 50px;
     }
-    .subtexto-banner{
+
+    .subtexto-banner {
         font-size: 34px;
     }
-    .boton-adopta{
-        font-size: 30px ;
-    }
+
+    .boton-adopta {
+        font-size: 30px;
     }
 }
