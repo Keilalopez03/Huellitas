@@ -9,7 +9,7 @@
     margin-left: 40px;
 }
 
-@media (max-width: 578px) {
+@media screen and (min-width:20px) and (max-width: 578px) {
     .letrah3 {
         font-size: 16px;
     }
@@ -28,14 +28,14 @@
     }
 
     .letrah3 {
-        font-size: 19px;;
+        font-size: 22px !important;
     }
     .alias{
         font-size: 27px ;
     }
 
 }
-    @media (max-width: 1024px) {
+@media screen and (min-width: 579px) and (max-width: 1024px) {
         .foto-donaciones {
             width: 588px;
             margin-top: 35px;
@@ -62,4 +62,3 @@
         margin-top: 20px;
     }
     }
-}
