@@ -259,7 +259,7 @@
 .letrah2 {
   margin: revert;
   font-size: 30px;
-  color: cyan;
+  box-shadow: cyan;
 }
 
 .nav-bar {
