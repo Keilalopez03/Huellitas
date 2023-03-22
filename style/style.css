@@ -30,7 +30,9 @@
   background-color: #ab66ea;
   box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
   border-radius: 17px;
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 14px;
   margin: 14px;
@@ -179,6 +181,7 @@
   box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
   border-radius: 17px;
   width: 790px;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 14px;
   margin: 14px;
@@ -209,6 +212,7 @@
     box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
     border-radius: 17px;
     width: 790px;
+    height: -moz-fit-content;
     height: fit-content;
     padding: 14px;
     margin: 14px;
@@ -222,6 +226,7 @@
     box-shadow: rgba(0, 0, 0, 0.75) 6px 7px 26px 5px;
     border-radius: 17px;
     width: 790px;
+    height: -moz-fit-content;
     height: fit-content;
     padding: 14px;
     margin: 14px;
@@ -472,6 +477,4 @@ a {
   .boton-adopta {
     font-size: 30px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
