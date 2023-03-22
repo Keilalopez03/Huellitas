@@ -259,7 +259,7 @@
 .letrah2 {
   margin: revert;
   font-size: 30px;
-  box-shadow: cyan;
+  color: cyan;
 }
 
 .nav-bar {
@@ -369,7 +369,7 @@ a {
 }
 
 .colorfondo {
-  background-color: #ab66ea !important;
+  background-color: #ab66ea;
 }
 
 .marginsubtitulo {
@@ -412,7 +412,7 @@ a {
     padding: 0px !important;
   }
   .letrah3 {
-    font-size: 16px !important;
+    font-size: 16px;
   }
   .letrah2 {
     font-size: 27px;
