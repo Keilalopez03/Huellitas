@@ -204,6 +204,13 @@
 .contenedor-requisitos {
   display: flex;
   flex-direction: column;
+  color: white;
+}
+
+.titulo-requisitos {
+  text-align: center;
+  font-family: "Hind Siliguri", sans-serif;
+  color: white;
 }
 
 @media screen and (min-width: 579px) and (max-width: 1024px) {
@@ -264,7 +271,7 @@
 .letrah2 {
   margin: revert;
   font-size: 30px;
-  color: cyan;
+  color: beige;
 }
 
 .nav-bar {
@@ -374,7 +381,7 @@ a {
 }
 
 .colorfondo {
-  background-color: #ab66ea;
+  background-color: #ab66ea !important;
 }
 
 .marginsubtitulo {
