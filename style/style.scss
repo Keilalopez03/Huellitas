@@ -150,6 +150,7 @@ a {
 .boton-colabora {
     margin: 23px;
     color: darkmagenta !important;
+    
 }
 
 @media screen and (min-width:20px) and (max-width: 578px) {
@@ -185,6 +186,14 @@ a {
 
     .texto-banner {
         font-size: 17px;
+    }
+    .boton-colabora {
+        margin: 23px;
+        color: darkmagenta !important;
+        width: 216px;
+        height: 53px;
+        font-family: cursive;
+        
     }
 
     @media screen and (min-width: 579px) and (max-width: 1024px) {
